@@ -1,0 +1,31 @@
+ /*Контейнер*/
+ .container{
+    position: relative;
+    width:600px;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+}
+/*Контейнер*/
+
+/*Верхнє меню*/
+.header li{
+    align-content: center;
+    display:inline;
+    margin: 0 40px 0 -10px;
+}
+
+.header span li{
+    display:inline;
+    margin-left:22px;
+}
+/*Верхнє меню*/
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.textalign {
+    text-align: center;
+}
